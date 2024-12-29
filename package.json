@@ -1,0 +1,15 @@
+{
+  "name": "concepts_of_nodejs",
+  "version": "1.0.0",
+  "description": "concepts of node JS",
+  "main": "\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node firstNode.js"
+  },
+  "author": "Sarthak Kumar Patro",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
