@@ -7,6 +7,9 @@
     "test": "test",
     "start": "node index"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Sarthak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
