@@ -23,10 +23,17 @@ const port = 8003;
 //   }
 // });
 const app = express();
-app.route("/").get((req, res) => {
-  console.log("res and req shown in page");
-  res.json({ res: "Sarthak" });
-});
+app
+  .route("/")
+  .get((req, res) => {
+    console.log("res and req shown in page");
+    res.json({ res: "Sarthak" });
+  })
+  .post((req, res) => {
+    res.json({
+      msg: "Success hai bhai post call / pe",
+    });
+  });
 
 app.listen(port, () => {
   console.log(`server started at: ${port}`);
